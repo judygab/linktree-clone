@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: rgb(238,174,202);
+  background: linear-gradient(138deg, rgba(238,174,202,1) 0%, rgba(247,128,255,1) 20%, rgba(143,116,179,1) 64%, rgba(148,187,233,1) 100%);
 }
 
 .App-logo {
@@ -14,14 +16,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
